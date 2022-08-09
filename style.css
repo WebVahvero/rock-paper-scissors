@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --dark-bg: #00ABE1;
+    --body-bg: #00ABE1;
+    --text: #ffffff;
+    --hover: #161F6D;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+body {
+    padding: 50px 5%;
+    height: 100vh;
+    background-color: var(--body-bg);
+}
+
+body, #container {
+    width: 100%;
+    height: auto;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    text-align: center;
+    background-color: var(--dark-bg);
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 6vw;
+    color: var(--text);
+}
+
+.btn-wrapper{
+    margin: 120px 0 250px 0;
+}
+
+button {
+    border: 0;
+    font-size: 6vw;
+    cursor: pointer;
+    margin: 20px;
+    padding: 10px;
+    transition: 500ms;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.response-wrapper {
+    position: absolute;
+    bottom: 150px;
+}
+
+h2 {
+    font-size: 4rem;
+    line-height: 1;
+    margin-top: 20px;
+    color: var(--text);
+}
+
+p {
+    font-size: 2rem;
+    line-height: 1;
+    margin-top: 20px;
+    color: var(--text);
+}
+
+.highlight-win {
+    color: var(--hover);
+}
+
+.highlight-draw {
+    color: yellow;
+}
+
+.highlight-lose {
+    color: red;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    h2 {
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 100px 10px;
+    }
+
+    button {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+    
+    p {
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+
+    button {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        margin-top: 20px;
+    }
+    
+    p {
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+}
