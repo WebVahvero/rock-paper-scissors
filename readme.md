@@ -24,6 +24,7 @@ Users should be able to:
 
 ### Links
 
+- Rock, paper, scissors gamesite site: [RPS Game](https://webvahvero.github.io/rock-paper-scissors/)
 - The Odin Project site: [The Odin Project](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors)
 
 ## Author
